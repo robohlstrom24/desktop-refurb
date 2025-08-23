@@ -34,7 +34,6 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 ### RAM upgrade
 
 1. Performed PowerShell compute benchmark on stock 2x8 GB RAM (square integers 1 through 1,000,000; result 2.41 seconds)
-- Note: Benchmark script adapted from reference code 
 2. Removed stock 2x8GB DDR4 RAM
 3. Installed Crucial 2x16 GB DDR4 RAM and booted into BIOS to confirm specifications
 4. Observed BIOS was misreporting each Crucial module as 8 GB
@@ -42,6 +41,7 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 6. Ordered and installed OWC 2x16 GB RAM 
 7. Verified 32 GB RAM recognized in BIOS
 8. Performed the same PowerShell compute benchmark on newly installed RAM (result 1.06 seconds)
+- Note: Benchmark script adapted from reference code 
 - Upgrade produced ~2.5x speed increase compared to stock configuration
 
 <img width="277" height="196" alt="RAM 1" src="https://github.com/user-attachments/assets/9d163b8e-d94d-4aa4-8bd5-b0e1c0aac68d" />
@@ -51,3 +51,24 @@ Stock 2x8 GB RAM modules (right) and upgraded 2x16 GB RAM modules (left)
 <img width="290" height="248" alt="RAM 2" src="https://github.com/user-attachments/assets/e9d43a42-9f23-4d52-8e8b-c5ed20180e1b" />
 
 Seating 16 GB RAM module into DIMM slot 1
+
+### SSD Upgrade
+
+1. Performed PowerShell read/write performance test on stock Samsung 256 GB M.2 SATA SSD (stopwatch + file I/O with byte arrays; 512 MB test file. Results: 2.63 seconds read, 0.31 seconds write)
+2. Removed stock SSD and installed WD SN770 1 TB M.2 NVMe PCIe SSD in the same M.2 slot
+3. Resolved boot issue (blank screen after Dell splash) by correcting BIOS date/time and replacing CMOS battery (see Troubleshooting Journal repo, ticket T-0005 [link])
+4. Verified drive detected as NVMe PCIe in BIOS
+5. Performed clean Windows 11 installation and validated successful boot
+6. Performed the same PowerShell read/write performance test on upgraded SSD (Results: 0.50 seconds read, 0.17 seconds write)
+- Note: benchmark script adapted from reference code
+- Upgrade produced  ~5x improvement in read performance, ~2x improvement in write performance
+- 
+<img width="273" height="214" alt="SSD 1" src="https://github.com/user-attachments/assets/de694fc7-f760-4a2b-aed2-954e4a6ef3f4" />
+
+Stock SATA SSD (top) and upgraded NVMe SSD (bottom)
+
+<img width="291" height="352" alt="SSD 2" src="https://github.com/user-attachments/assets/bf4d49b3-336d-41c0-82ae-8544adbcb057" />
+
+Removing 256 GB SATA SSD from motherboard M.2 slot
+
+
