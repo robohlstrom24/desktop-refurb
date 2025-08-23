@@ -62,7 +62,7 @@ Seating 16 GB RAM module into DIMM slot 1
 6. Performed the same PowerShell read/write performance test on upgraded SSD (Results: 0.50 seconds read, 0.17 seconds write)
 - Note: benchmark script adapted from reference code
 - Upgrade produced  ~5x improvement in read performance, ~2x improvement in write performance
-- 
+  
 <img width="273" height="214" alt="SSD 1" src="https://github.com/user-attachments/assets/de694fc7-f760-4a2b-aed2-954e4a6ef3f4" />
 
 Stock SATA SSD (top) and upgraded NVMe SSD (bottom)
@@ -71,4 +71,17 @@ Stock SATA SSD (top) and upgraded NVMe SSD (bottom)
 
 Removing 256 GB SATA SSD from motherboard M.2 slot
 
+### WiFi/Bluetooth card install
 
+1. Installed TP-Link WiFi/Bluetooth card into PCIe x1 slot, removing case slot cover for rear access
+2. Resolved compatibility issue (no available USB port on motherboard) with adapter cable (9-pin USB header to USB Type-A)
+3. Booted system and verified both WiFi and Bluetooth were detected and functional
+4. Installed latest Intel AX210 WiFi and Bluetooth drivers for security
+
+<img width="320" height="331" alt="WiFi 1" src="https://github.com/user-attachments/assets/640c5ba5-5108-4416-b856-16050eaad0c1" />
+
+Seating WiFi/Bluetooth card in PCIe x1 slot
+
+<img width="232" height="539" alt="WiFi 2" src="https://github.com/user-attachments/assets/19fbd2b1-1d23-4a5e-8d26-bbfd8a922e5e" />
+
+Adapter cable workaround enabling Bluetooth connectivity
