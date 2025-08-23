@@ -28,7 +28,8 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 2. Verified SATA operation mode set to AHCI 
 3. Verified Secure Boot was enabled (Legacy Option ROMs disabled)
 4. Booted from Windows 11 installation media
-5. Resolved partition selection error during install (see Troubleshooting Journal repo, ticket T-0003 [link])
+5. Resolved partition selection error during install
+(see [Troubleshooting Journal: T-0003](https://github.com/robohlstrom24/troubleshooting-journal)
 6. Completed clean installation of Windows 11 on stock SSD; system booted successfully
 
 ### RAM upgrade
