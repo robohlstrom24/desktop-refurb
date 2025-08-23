@@ -13,10 +13,36 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 | Wireless  | None (no WiFi/Bluetooth card)                                           |
 | Chipset   | Intel Q370                                                              |
 
-### Hardware Upgrades
+### Upgrades
 | Component         | Details                                                          |
 |-------------------|------------------------------------------------------------------|
 | RAM               | OWC 32 GB DDR4 (2×16 GB, 2666 MHz) non-ECC UDIMM                 |
 | Storage           | Western Digital SN770 1 TB, M.2 NVMe SSD                         |
 | WiFi/Bluetooth    | TP-Link WiFi 6E Intel AX210 PCIe, Bluetooth 5.3, WPA3 security   |
 
+## Action steps
+
+### Windows 11 installation on stock SSD
+
+1. Verified SSD detected in BIOS
+2. Verified SATA operation mode set to AHCI 
+3. Verified Secure Boot was enabled (Legacy Option ROMs disabled)
+4. Booted from Windows 11 installation media
+5. Resolved partition selection error during install (see Troubleshooting Journal repo, ticket T-0003 [link])
+6. Completed clean installation of Windows 11 on stock SSD; system booted successfully
+
+### RAM upgrade
+
+1. Performed PowerShell compute benchmark on stock 2x8 GB RAM (square integers 1 through 1,000,000; result 2.41 seconds)
+- Note: Benchmark script adapted from reference code 
+2. Removed stock 2x8GB DDR4 RAM
+3. Installed Crucial 2x16 GB DDR4 RAM and booted into BIOS to confirm specifications
+4. Observed BIOS was misreporting each Crucial module as 8 GB
+5. Verified system incompatibility with Crucial RAM (see Troubleshooting Journal repo, ticket T-0004 [link])
+6. Ordered and installed OWC 2x16 GB RAM 
+7. Verified 32 GB RAM recognized in BIOS
+8. Performed the same PowerShell compute benchmark on newly installed RAM (result 1.06 seconds)
+- Upgrade produced ~2.5x speed increase compared to stock configuration
+
+<img width="277" height="196" alt="RAM 1" src="https://github.com/user-attachments/assets/9d163b8e-d94d-4aa4-8bd5-b0e1c0aac68d" />
+Stock 2x8 GB RAM modules (right) and upgraded 2x16 GB RAM modules (left)
