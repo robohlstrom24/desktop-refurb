@@ -1,5 +1,5 @@
 # Project Overview
-This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstrate CompTIA A+ core skills by improving system specifications. After a clean installation of Windows 11, the system was enhanced with upgraded RAM, expanded storage, and a WiFi/Bluetooth card. The upgraded components were configured and performance improvements were validated with PowerShell benchmarks. Troubleshooting activities were documented in a companion repository ([Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
+This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstrate CompTIA A+ core skills by improving system specifications. After a clean installation of Windows 11, the system was enhanced with upgraded RAM, expanded storage, and a WiFi/Bluetooth card. The upgraded components were configured and performance improvements were validated with PowerShell benchmarks. Troubleshooting activities were documented in a companion repository ([Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal)
 ) 
 
 ## Hardware Specifications
