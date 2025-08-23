@@ -45,4 +45,9 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 - Upgrade produced ~2.5x speed increase compared to stock configuration
 
 <img width="277" height="196" alt="RAM 1" src="https://github.com/user-attachments/assets/9d163b8e-d94d-4aa4-8bd5-b0e1c0aac68d" />
+
 Stock 2x8 GB RAM modules (right) and upgraded 2x16 GB RAM modules (left)
+
+<img width="290" height="248" alt="RAM 2" src="https://github.com/user-attachments/assets/e9d43a42-9f23-4d52-8e8b-c5ed20180e1b" />
+
+Seating 16 GB RAM module into DIMM slot 1
