@@ -97,7 +97,7 @@ Adapter cable workaround enabling Bluetooth connectivity
 
 ## Conclusion
 
-Upgraded a Dell Optiplex 5060 desktop to improve system performance and handle heavier workloads. Applied CompTIA A+ concepts through hands-on experience removing and installing hardware components. Demonstrated troubleshooting skills using ITSM-style ticketing practices, as shown in the [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal) companion repository. 
+Upgraded a Dell Optiplex 5060 desktop to improve system performance and handle heavier workloads. Applied CompTIA A+ concepts through hands-on experience removing and installing hardware components. Demonstrated troubleshooting skills using ITSM-style ticketing practices, as shown in the [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal) companion repository. 
 
 Lessons learned which apply to professional IT support include:
 - **Disk prep:** clean/reformat disks before Windows installation to avoid partition errors
