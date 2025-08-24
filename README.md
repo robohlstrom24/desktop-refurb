@@ -100,7 +100,7 @@ Adapter cable workaround enabling Bluetooth connectivity
 Upgraded a Dell Optiplex 5060 desktop to improve system performance and handle heavier workloads. Applied CompTIA A+ concepts through hands-on experience removing and installing hardware components. Demonstrated troubleshooting skills using ITSM-style ticketing practices, as shown in the [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal) companion repository. 
 
 Lessons learned which apply to professional IT support include:
-**Disk prep:** clean/reformat disks before Windows installation to avoid partition errors
-**Vendor compatibility:** check Qualified Vendor Lists prior to hardware procurement  
-**Preventive maintenance:** replace CMOS battery to prevent BIOS reset issues
+- **Disk prep:** clean/reformat disks before Windows installation to avoid partition errors
+- **Vendor compatibility:** check Qualified Vendor Lists prior to hardware procurement  
+- **Preventive maintenance:** replace CMOS battery to prevent BIOS reset issues
 
