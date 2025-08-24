@@ -67,7 +67,7 @@ Seating 16 GB RAM module into DIMM slot 1
 - Note: benchmark script adapted from reference code
 - Upgrade produced a ~5x improvement in read performance and a ~2x improvement in write performance compared to stock configuration
 
-- (see [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal))
+(see [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal))
   
 <img width="273" height="214" alt="SSD 1" src="https://github.com/user-attachments/assets/de694fc7-f760-4a2b-aed2-954e4a6ef3f4" />
 
