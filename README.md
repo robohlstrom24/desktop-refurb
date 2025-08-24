@@ -48,7 +48,7 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 7. Verified 32 GB RAM recognized in BIOS
 8. Performed the same PowerShell compute benchmark on newly installed RAM (result 1.06 seconds)
 - Note: Benchmark script adapted from reference code 
-- Upgrade produced ~2.5x speed increase compared to stock configuration
+- Upgrade produced a ~2.5x speed increase compared to the stock configuration
 
 <img width="277" height="196" alt="RAM 1" src="https://github.com/user-attachments/assets/9d163b8e-d94d-4aa4-8bd5-b0e1c0aac68d" />
 
@@ -70,7 +70,7 @@ Seating 16 GB RAM module into DIMM slot 1
 5. Performed clean Windows 11 installation and validated successful boot
 6. Performed the same PowerShell read/write performance test on upgraded SSD (Results: 0.50 seconds read, 0.17 seconds write)
 - Note: benchmark script adapted from reference code
-- Upgrade produced  ~5x improvement in read performance, ~2x improvement in write performance
+- Upgrade produced a ~5x improvement in read performance and a ~2x improvement in write performance compared to stock configuration
   
 <img width="273" height="214" alt="SSD 1" src="https://github.com/user-attachments/assets/de694fc7-f760-4a2b-aed2-954e4a6ef3f4" />
 
