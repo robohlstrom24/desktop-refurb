@@ -94,3 +94,13 @@ Seating WiFi/Bluetooth card in PCIe x1 slot
 <img width="232" height="539" alt="WiFi 2" src="https://github.com/user-attachments/assets/19fbd2b1-1d23-4a5e-8d26-bbfd8a922e5e" />
 
 Adapter cable workaround enabling Bluetooth connectivity
+
+## Conclusion
+
+Upgraded a Dell Optiplex 5060 desktop to improve system performance and handle heavier workloads. Applied CompTIA A+ concepts through hands-on experience removing and installing hardware components. Demonstrated troubleshooting skills using ITSM-style ticketing practices, as shown in the [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal) companion repository. 
+
+Lessons learned which apply to professional IT support include:
+**Disk prep:** clean/reformat disks before Windows installation to avoid partition errors
+**Vendor compatibility:** check Qualified Vendor Lists prior to hardware procurement  
+**Preventive maintenance:** replace CMOS battery to prevent BIOS reset issues
+
