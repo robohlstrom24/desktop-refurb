@@ -29,10 +29,9 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 3. Verified Secure Boot was enabled (Legacy Option ROMs disabled)
 4. Booted from Windows 11 installation media
 5. Resolved partition selection error during install
+6. Completed clean installation of Windows 11 on stock SSD; system booted successfully
 
 (see [Troubleshooting Journal: T-0003](https://github.com/robohlstrom24/troubleshooting-journal))
-
-6. Completed clean installation of Windows 11 on stock SSD; system booted successfully
 
 ### RAM Upgrade
 
@@ -41,14 +40,13 @@ This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstra
 3. Installed Crucial 2x16 GB DDR4 RAM and booted into BIOS to confirm specifications
 4. Observed BIOS was misreporting each Crucial module as 8 GB
 5. Verified system incompatibility with Crucial RAM
-   
-(see [Troubleshooting Journal: T-0004](https://github.com/robohlstrom24/troubleshooting-journal))
-
 6. Ordered and installed OWC 2x16 GB RAM 
 7. Verified 32 GB RAM recognized in BIOS
 8. Performed the same PowerShell compute benchmark on newly installed RAM (result 1.06 seconds)
 - Note: Benchmark script adapted from reference code 
 - Upgrade produced a ~2.5x speed increase compared to the stock configuration
+
+(see [Troubleshooting Journal: T-0004](https://github.com/robohlstrom24/troubleshooting-journal))
 
 <img width="277" height="196" alt="RAM 1" src="https://github.com/user-attachments/assets/9d163b8e-d94d-4aa4-8bd5-b0e1c0aac68d" />
 
@@ -63,14 +61,13 @@ Seating 16 GB RAM module into DIMM slot 1
 1. Performed PowerShell read/write performance test on stock Samsung 256 GB M.2 SATA SSD (stopwatch + file I/O with byte arrays; 512 MB test file. Results: 2.63 seconds read, 0.31 seconds write)
 2. Removed stock SSD and installed WD SN770 1 TB M.2 NVMe PCIe SSD in the same M.2 slot
 3. Resolved boot issue (blank screen after Dell splash) by correcting BIOS date/time and replacing CMOS battery
-   
-(see [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal))
-
 4. Verified drive detected as NVMe PCIe in BIOS
 5. Performed clean Windows 11 installation and validated successful boot
 6. Performed the same PowerShell read/write performance test on upgraded SSD (Results: 0.50 seconds read, 0.17 seconds write)
 - Note: benchmark script adapted from reference code
 - Upgrade produced a ~5x improvement in read performance and a ~2x improvement in write performance compared to stock configuration
+
+- (see [Troubleshooting Journal: T-0005](https://github.com/robohlstrom24/troubleshooting-journal))
   
 <img width="273" height="214" alt="SSD 1" src="https://github.com/user-attachments/assets/de694fc7-f760-4a2b-aed2-954e4a6ef3f4" />
 
