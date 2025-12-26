@@ -36,7 +36,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 | Storage           | Western Digital SN770 1 TB, M.2 NVMe SSD                         |
 | WiFi/Bluetooth    | TP-Link WiFi 6E Intel AX210 PCIe, Bluetooth 5.3, WPA3 security   |
 
-## Action steps
+## Proof of Concept
 
 ### Windows 11 Installation On Stock SSD
 
