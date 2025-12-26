@@ -1,6 +1,22 @@
-# Project Overview
-This project involved refurbishing a Dell OptiPlex 5060 SFF desktop to demonstrate CompTIA A+ core skills by improving system specifications. After a clean installation of Windows 11, the system was enhanced with upgraded RAM, expanded storage, and a WiFi/Bluetooth card. The components were configured post-installation and performance improvements were validated with PowerShell benchmarks. Troubleshooting activities were documented in a companion repository (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal)). 
- 
+## Operational Relevance
+
+This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of system reliability. A clean OS install established a supportable baseline, and post-installation validation activities confirmed system stability. Availability and integrity risks introduced by the low-level changes were considered for impact to future operations. Troubleshooting activities were documented in a separate repository modeled after ticket-based professional support workflows (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal)). 
+
+## Job Duties
+
+- Supporting the workstation lifecycle through hardware upgrades, OS deployment, and post-change validation
+- Installing and configuring desktop hardware components
+- Performing clean operating system deployments
+- Validating system functionality and stability following hardware changes
+- Documenting troubleshooting outcomes to support future maintenance and incident response
+
+## Future Enhancements
+
+- CPU upgrade to extend workstation lifespan
+- GPU installation to support expanded workloads
+- HDD installation for additional storage capacity
+- SSD partitioning to support Windows/Linux dual boot configurations
+
 ## Hardware Specifications
 
 ### Stock Configuration
