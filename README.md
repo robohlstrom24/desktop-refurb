@@ -1,8 +1,8 @@
-## Operational Relevance
+## Operational Relevance (Endpooint Hardware and OS Deployment)
 
 This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of system reliability. A clean OS install established a supportable baseline, and validation activities post-installation confirmed system stability. Availability and integrity risks introduced by the low-level changes were considered for impact to future operations. Troubleshooting activities were documented in a separate repository modeled after ticket-based professional support workflows (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal)). 
 
-## Job Duties
+## Job Duties (IT Operations)
 
 - Supporting the workstation lifecycle through hardware upgrades, OS deployment, and post-change validation
 - Installing and configuring desktop hardware components
