@@ -12,7 +12,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 
 <details>
-<summary>##Hardware Specifications</summary>  
+<summary>## Hardware Specifications</summary>  
 
 ### Stock Configuration
 | Component | Details                                                                 |
@@ -33,9 +33,10 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 </details>
 
-## Proof of Concept
+## Scope of Work
 
-### Windows 11 Installation On Stock SSD
+<details>
+<summary> ### Windows 11 Installation (Stock SSD)</summary>  
 
 1. Verified SSD detected in BIOS
 2. Verified SATA operation mode set to AHCI 
@@ -45,6 +46,8 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 6. Completed clean installation of Windows 11 on stock SSD; system booted successfully
 
 (see: [Troubleshooting Journal: T-0003](https://github.com/robohlstrom24/troubleshooting-journal))
+
+</details>
 
 ### RAM Upgrade
 
