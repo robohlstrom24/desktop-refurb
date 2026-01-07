@@ -10,14 +10,9 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 - Validating system functionality and stability following hardware changes
 - Documenting troubleshooting outcomes to support future maintenance and incident response
 
-## Future Enhancements
 
-- CPU upgrade to extend workstation lifespan
-- GPU installation to support expanded workloads
-- HDD installation for additional storage capacity
-- SSD partitioning to support Windows/Linux dual boot configurations
-
-## Hardware Specifications
+<details>
+<summary>##Hardware Specifications</summary>  
 
 ### Stock Configuration
 | Component | Details                                                                 |
@@ -35,6 +30,8 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 | RAM               | OWC 32 GB DDR4 (2×16 GB, 2666 MHz) non-ECC UDIMM                 |
 | Storage           | Western Digital SN770 1 TB, M.2 NVMe SSD                         |
 | WiFi/Bluetooth    | TP-Link WiFi 6E Intel AX210 PCIe, Bluetooth 5.3, WPA3 security   |
+
+</details>
 
 ## Proof of Concept
 
@@ -108,12 +105,17 @@ Seating WiFi/Bluetooth card in PCIe x1 slot
 
 Adapter cable workaround enabling Bluetooth connectivity
 
-## Conclusion
-
-Upgraded a Dell Optiplex 5060 desktop to improve system performance and enable heavier workloads. Applied CompTIA A+ concepts through hands-on experience removing and installing hardware components. Demonstrated troubleshooting skills using ITSM-style ticketing practices, as shown in the [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal) companion repository. 
-
 Lessons learned which apply to professional IT support include:
 - **Disk prep:** clean/reformat disks before Windows installation to avoid partition errors
 - **Vendor compatibility:** check Qualified Vendor Lists prior to hardware procurement  
 - **Preventive maintenance:** replace CMOS battery to prevent BIOS reset issues
+
+## Future Enhancements
+
+- CPU upgrade to extend workstation lifespan
+- GPU installation to support expanded workloads
+- HDD installation for additional storage capacity
+- SSD partitioning to support Windows/Linux dual boot configurations
+
+
 
