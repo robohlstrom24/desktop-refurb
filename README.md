@@ -10,6 +10,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 - Validating system functionality and stability following hardware changes
 - Documenting troubleshooting outcomes to support future maintenance and incident response
 
+## Scope of Work
 
 <details>
 <summary>Hardware Specifications</summary>  
@@ -33,8 +34,6 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 </details>
 
-## Scope of Work
-
 <details>
 <summary>Windows 11 Installation (Stock SSD)</summary>  
 
@@ -51,7 +50,6 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 <details>
 <summary>RAM Upgrade</summary>  
-### RAM Upgrade
 
 1. Performed PowerShell compute benchmark on stock 2x8 GB RAM (square integers 1 through 1,000,000; result 2.41 seconds)
 2. Removed stock 2x8GB DDR4 RAM
