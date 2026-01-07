@@ -15,6 +15,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 <details>
 <summary>Hardware Specifications</summary>  
 
+
 ### Stock Configuration
 | Component | Details                                                                 |
 |-----------|-------------------------------------------------------------------------|
@@ -37,6 +38,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 <details>
 <summary>Windows 11 Installation (Stock SSD)</summary>  
 
+
 1. Verified SSD detected in BIOS
 2. Verified SATA operation mode set to AHCI 
 3. Verified Secure Boot was enabled (Legacy Option ROMs disabled)
@@ -50,6 +52,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 <details>
 <summary>RAM Upgrade</summary>  
+
 
 1. Performed PowerShell compute benchmark on stock 2x8 GB RAM (square integers 1 through 1,000,000; result 2.41 seconds)
 2. Removed stock 2x8GB DDR4 RAM
@@ -76,6 +79,7 @@ Seating 16 GB RAM module into DIMM slot 1
 <details>
 <summary>SSD Upgrade</summary>  
 
+
 1. Performed PowerShell read/write performance test on stock Samsung 256 GB M.2 SATA SSD (stopwatch + file I/O with byte arrays; 512 MB test file. Results: 2.63 seconds read, 0.31 seconds write)
 2. Removed stock SSD and installed WD SN770 1 TB M.2 NVMe PCIe SSD in the same M.2 slot
 3. Resolved boot issue (blank screen after Dell splash) by correcting BIOS date/time and preventatively replacing CMOS battery
@@ -98,6 +102,7 @@ Removing 256 GB SATA SSD from motherboard M.2 slot
 
 <details>
 <summary>WiFi/Bluetooth Card Installation</summary>  
+
 
 1. Installed TP-Link WiFi/Bluetooth card into PCIe x1 slot, removing case slot cover for rear access
 2. Resolved compatibility issue (no available USB port on motherboard) with adapter cable (9-pin USB header to USB Type-A)
@@ -123,7 +128,7 @@ Adapter cable workaround enabling Bluetooth connectivity
 
 - CPU upgrade to extend workstation lifespan
 - GPU installation to support expanded workloads
-- HDD installation for additional storage capacity
+- HDD installation to expand storage capacity
 - SSD partitioning to support Windows/Linux dual boot configurations
 
 
