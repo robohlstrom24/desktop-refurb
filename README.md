@@ -12,7 +12,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 
 <details>
-<summary>## Hardware Specifications</summary>  
+<summary>Hardware Specifications</summary>  
 
 ### Stock Configuration
 | Component | Details                                                                 |
@@ -36,7 +36,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 ## Scope of Work
 
 <details>
-<summary> ### Windows 11 Installation (Stock SSD)</summary>  
+<summary>Windows 11 Installation (Stock SSD)</summary>  
 
 1. Verified SSD detected in BIOS
 2. Verified SATA operation mode set to AHCI 
@@ -49,6 +49,8 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 </details>
 
+<details>
+<summary>RAM Upgrade</summary>  
 ### RAM Upgrade
 
 1. Performed PowerShell compute benchmark on stock 2x8 GB RAM (square integers 1 through 1,000,000; result 2.41 seconds)
@@ -71,8 +73,10 @@ Stock 2x8 GB RAM modules (right) and upgraded 2x16 GB RAM modules (left)
 <img width="290" height="248" alt="RAM 2" src="https://github.com/user-attachments/assets/e9d43a42-9f23-4d52-8e8b-c5ed20180e1b" />
 
 Seating 16 GB RAM module into DIMM slot 1
+</details>
 
-### SSD Upgrade
+<details>
+<summary>SSD Upgrade</summary>  
 
 1. Performed PowerShell read/write performance test on stock Samsung 256 GB M.2 SATA SSD (stopwatch + file I/O with byte arrays; 512 MB test file. Results: 2.63 seconds read, 0.31 seconds write)
 2. Removed stock SSD and installed WD SN770 1 TB M.2 NVMe PCIe SSD in the same M.2 slot
@@ -92,8 +96,10 @@ Stock SATA SSD (top) and upgraded NVMe SSD (bottom)
 <img width="291" height="352" alt="SSD 2" src="https://github.com/user-attachments/assets/bf4d49b3-336d-41c0-82ae-8544adbcb057" />
 
 Removing 256 GB SATA SSD from motherboard M.2 slot
+</details>
 
-### WiFi/Bluetooth Card Installation 
+<details>
+<summary>WiFi/Bluetooth Card Installation</summary>  
 
 1. Installed TP-Link WiFi/Bluetooth card into PCIe x1 slot, removing case slot cover for rear access
 2. Resolved compatibility issue (no available USB port on motherboard) with adapter cable (9-pin USB header to USB Type-A)
@@ -108,7 +114,9 @@ Seating WiFi/Bluetooth card in PCIe x1 slot
 
 Adapter cable workaround enabling Bluetooth connectivity
 
-Lessons learned which apply to professional IT support include:
+</details>
+
+## Lessons learned (IT Operations)
 - **Disk prep:** clean/reformat disks before Windows installation to avoid partition errors
 - **Vendor compatibility:** check Qualified Vendor Lists prior to hardware procurement  
 - **Preventive maintenance:** replace CMOS battery to prevent BIOS reset issues
