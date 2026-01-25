@@ -6,7 +6,7 @@ This project demonstrates support of the workstation lifecycle by upgrading unde
 
 (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
-## Job Duties (IT Operations)
+## Job Duties Demonstrated
 
 - Supporting the workstation lifecycle through hardware upgrades, OS deployment, and post-change validation
 - Installing and configuring desktop hardware components
