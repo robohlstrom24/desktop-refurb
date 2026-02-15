@@ -1,4 +1,4 @@
-# Desktop Refurbishment
+![1](images/desktop.banner.jpg)
 
 ## Operational Relevance (Endpoint Hardware and OS Deployment)
 
