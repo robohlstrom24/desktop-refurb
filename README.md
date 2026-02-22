@@ -2,17 +2,10 @@
 
 ## Operational Relevance (Endpoint Hardware and OS Deployment)
 
-This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of system reliability. A clean OS install established a supportable baseline, and validation activities post-installation confirmed system stability. Availability and integrity risks introduced by the low-level changes were evaluated for impact to future operations. Troubleshooting activities were documented in a separate repository modeled after ticket-based professional support workflows. 
+This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of system reliability. A clean OS install established a supportable baseline, and validation activities post-installation confirmed system stability. Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.
 
 (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
-## Job Duties Demonstrated
-
-- Supporting the workstation lifecycle through hardware upgrades, OS deployment, and post-change validation
-- Installing and configuring desktop hardware components
-- Performing clean operating system deployments
-- Validating system functionality and stability following hardware changes
-- Documenting troubleshooting outcomes to support future maintenance and incident response
 
 ## Scope of Work
 
