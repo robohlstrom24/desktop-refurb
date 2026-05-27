@@ -2,7 +2,7 @@
 
 ## Operational Relevance 
 
-This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of improved system performance. A clean OS install established a supportable baseline, SSD / RAM / Bluethooth/WiFi card were installed, and validation activities post-installation confirmed system stability. Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.
+This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of improved system performance. A clean OS install established a supportable baseline, SSD / RAM / WiFi card were installed, and validation activities post-installation confirmed system stability. Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.
 
 (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
