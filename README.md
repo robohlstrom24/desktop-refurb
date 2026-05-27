@@ -1,8 +1,8 @@
 ![1](images/desktop.banner.jpg)
 
-## Operational Relevance (Endpoint Hardware and OS Deployment)
+## Operational Relevance 
 
-This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of system reliability. A clean OS install established a supportable baseline, and validation activities post-installation confirmed system stability. Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.
+This project demonstrates support of the workstation lifecycle by upgrading under-performing hardware components in pursuit of improved system performance. A clean OS install established a supportable baseline, SSD / RAM / Bluethooth/WiFi card were installed, and validation activities post-installation confirmed system stability. Troubleshooting activities are supplemented with ITSM-style tickets which are documented in a companion repository.
 
 (see: [Troubleshooting Journal](https://github.com/robohlstrom24/troubleshooting-journal))
 
